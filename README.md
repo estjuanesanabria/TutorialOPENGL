@@ -4,6 +4,11 @@
 **Código:** 6014495
 **Materia:** Introducción a la Computación Gráfica - Ingeniería en Multimedia, UMNG
 
+
+##ENLACE A VIDEO DE YOUTUBE EXPLICATIVO Y DEMOSTRACIÓN
+
+https://youtu.be/0VSzSrdqTR0
+
 ## Descripción
 
 Paint en 2D hecho en C++ con OpenGL. El lienzo es una cuadrícula y cada celda funciona como un píxel.

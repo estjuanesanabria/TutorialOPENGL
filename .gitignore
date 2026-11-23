@@ -1,0 +1,12 @@
+# Archivos que genera Visual Studio al compilar (no se suben a GitHub)
+.vs/
+x64/
+Debug/
+Release/
+TutorialOPENGL/
+*.user
+*.obj
+*.pdb
+*.ilk
+*.log
+*.tlog

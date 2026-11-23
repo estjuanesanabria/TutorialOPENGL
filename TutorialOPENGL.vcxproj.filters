@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{5B1D6A3E-2C47-4E8B-9F1A-7D2E4C6B8A01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Librerias">
+      <UniqueIdentifier>{8E3F2A1B-6C5D-4F9E-A2B7-1C4D6E8F0A23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Librerias\imgui">
+      <UniqueIdentifier>{2A7C9E1D-4B6F-4A8C-9E2D-5F1B3C7A9E45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="lienzo.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="algoritmos.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="transformaciones.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+    <ClCompile Include="glad.c"><Filter>Librerias</Filter></ClCompile>
+    <ClCompile Include="libraries\imgui\imgui.cpp"><Filter>Librerias\imgui</Filter></ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_draw.cpp"><Filter>Librerias\imgui</Filter></ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_tables.cpp"><Filter>Librerias\imgui</Filter></ClCompile>
+    <ClCompile Include="libraries\imgui\imgui_widgets.cpp"><Filter>Librerias\imgui</Filter></ClCompile>
+    <ClCompile Include="libraries\imgui\backends\imgui_impl_glfw.cpp"><Filter>Librerias\imgui</Filter></ClCompile>
+    <ClCompile Include="libraries\imgui\backends\imgui_impl_opengl3.cpp"><Filter>Librerias\imgui</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lienzo.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="algoritmos.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="transformaciones.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="libraries\imgui\imgui.h"><Filter>Librerias\imgui</Filter></ClInclude>
+    <ClInclude Include="libraries\imgui\imconfig.h"><Filter>Librerias\imgui</Filter></ClInclude>
+    <ClInclude Include="libraries\imgui\imgui_internal.h"><Filter>Librerias\imgui</Filter></ClInclude>
+    <ClInclude Include="libraries\imgui\backends\imgui_impl_glfw.h"><Filter>Librerias\imgui</Filter></ClInclude>
+    <ClInclude Include="libraries\imgui\backends\imgui_impl_opengl3.h"><Filter>Librerias\imgui</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\vertex.glsl"><Filter>Shaders</Filter></None>
+    <None Include="shaders\fragment.glsl"><Filter>Shaders</Filter></None>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
